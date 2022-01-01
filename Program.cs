@@ -25,7 +25,7 @@ namespace NEID
 
         static void Main(string[] args)
         {
-            if (args[0] == "-h" || args[0] == "--help")
+            if (args.Length == 0 || args[0] == "-h" || args[0] == "--help")
             {
                 Console.WriteLine("NEID (Nights Ending Image Decompressor)");
                 Console.WriteLine("By Amy Wright and contributors");
